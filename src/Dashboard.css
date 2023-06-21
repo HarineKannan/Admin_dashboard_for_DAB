@@ -1,0 +1,103 @@
+
+.header{
+   color:rgb(33,150,243);
+   margin-left: 300px;
+   margin-bottom: 40px;
+}
+.content{
+       margin-top: 30px;
+   color:rgb(33,150,243);
+   margin-left: 300px;
+}
+/* Rest of your CSS code */
+.horizontal-bar {
+  height: 5px;
+  margin-left: 10px;
+  background-color: rgb(33,150,243);
+}
+
+.tab-bar {
+       margin-left: 290px;
+
+    display: flex;
+        margin-top: 20px;
+        margin-bottom:20px;
+
+}
+.container {
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 20px;
+}
+.blue-box {
+  position: fixed;
+  top: 0;
+  left: 10px;
+  width: 240px;
+  height: 100vh;
+  background-image: linear-gradient(rgb(33,150,243), rgb(255,280,290));
+  padding: 20px;
+
+}
+.name-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+
+}
+
+.name-list h3 {
+  margin-top: 40px;
+  color:#fff;
+  font-style: bold;
+}
+.tab {
+     margin-top: 20px;
+  margin-bottom: 20px;
+    flex: 1;
+    padding: 10px;
+    background-color: rgb(33,150,243);
+    color: white;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color:rgb(33,160,270);
+}
+
+.tab-icon {
+    margin-right: 5px;
+}
+
+.tab-icon.active {
+    background-color: white;
+}
+
+.centered-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #000;
+
+}
+
+.centered-table th {
+  text-align: center;
+  border: 1px solid #000;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.centered-table td {
+  text-align: left;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+
